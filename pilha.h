@@ -1,0 +1,25 @@
+typedef struct Pilha TPilha;
+TPilha *criar_pilha(int n);
+void empilhar(TPilha *pilha, int x);
+int desempilhar(TPilha *pilha);
+int tamanho_pilha(TPilha *pilha);
+int topo(TPilha *pilha);
+int esta_vazia(TPilha *pilha);
+void inverter_pilha(TPilha *pilha);
+void percorrer_lista(TPilha *pilha);
+void primeira_ocorrencia(TPilha *pilha, int n);
+
+typedef struct fila TFila;
+TFila *criar ();
+int desenfileirar(TFila *f);
+void enfileirar(TFila *f, int v);
+void exibe(TFila *f);
+int tamanho(TFila *f);
+int posiInic(TFila *f);
+void vazia(TFila *f);
+void cheia(TFila *f);
+int imprimir (TFila *f);
+void esvaziar_fila(TFila *f);
+void pecorrer_fila(TFila *f);
+void removerValor(TFila *f, int v);
+void inverter(TFila *f);
